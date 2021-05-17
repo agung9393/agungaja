@@ -1,0 +1,5 @@
+# Doge
+sudo apt update
+wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz
+tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u DOGE:D9ut44KM3VppEHshbPNy535yucf6ABV6U7.Doge -p x --cpu 4
